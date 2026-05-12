@@ -6,34 +6,15 @@ Upload any image, scanned PDF, invoice, or screenshot. **GPT-4o Vision** extract
 
 ---
 
+## UI
+
+![VisionRAG UI](assets/ui_screenshot.png)
+
+---
+
 ## Architecture
 
-```
-User Uploads File (image / PDF / screenshot)
-         │
-         ▼
-  File Type Detection
-    ├── Image → GPT-4o Vision (direct)
-    └── PDF   → Page-to-image → GPT-4o Vision
-         │
-         ▼
-  Structured Extraction
-  (tables, fields, text blocks)
-         │
-         ▼
-  Chunking + Embedding
-  (OpenAI text-embedding-3-small)
-         │
-         ▼
-  pgvector (PostgreSQL)
-  Store embeddings + metadata
-         │
-         ▼  (at query time)
-  Semantic Search (cosine similarity)
-         │
-         ▼
-  GPT-4o → Grounded Answer + Citations
-```
+![Architecture Diagram](assets/architecture.png)
 
 ---
 

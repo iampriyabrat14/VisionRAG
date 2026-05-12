@@ -34,6 +34,7 @@ htmlcov/
 demo_invoice.pdf
 demo_lab_report.png
 create_demo_files.py
+generate_assets.py
 
 # OS
 .DS_Store
