@@ -1,4 +1,4 @@
-# VisionRAG
+﻿# VisionRAG
 
 > Multimodal Document Intelligence — Extract, Embed, Query
 
@@ -147,3 +147,14 @@ WITH (lists = 100);
 - [ ] Deploy to AWS ECS with RDS PostgreSQL
 - [ ] Add reranker (cross-encoder) for better retrieval
 - [ ] Export Q&A session as PDF report
+
+---
+
+## Connect
+
+**Priyabrat Dalbehera** — AI Engineer | Building production GenAI systems
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/priyabrat-dalbehera-p521)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://www.aiwithpriyabrat.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/iampriyabrat14)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:ipriyabrat689@gmail.com)
